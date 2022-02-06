@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.heading{
+	display: flex;
+	background-color: #314ff6;
+	height: 70px;
+	width: 100%;
+}
+.main{
+	height: 800px;
+	width: 100%;
+	display: flex;
+}
+
+.menu ul{
+	list-style-type: none;
+	display: flex;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+}
+.menu ul li{
+	padding: 26px;
+	font-size: 20px;
+	color: white;
+}
+.menu ul li:hover{
+	background-color: #cdc3be;
+	border-radius: 4px;
+}
+.main-content{
+	width: 25%;
+	float: left;
+	border: 1px solid;
+	height: 620px;
+	padding: 20px 0 20px 15px;
+	background-color: #e8e7eb;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.main-content p {
+	border-bottom: 1px solid;
+	padding: 10px;
+	margin-right: 30px;
+}
+.main-right{
+	width: 75%;
+	float: left;
+}
+.col-1{
+	display: flex;
+}
+.col-1 label{
+	padding: 10px;
+	margin: 5px;
+}
+.col-1 button{
+	background-color: #8faff4;
+	margin: 5px;
+	border-radius: 5px;
+}
+.col-1 img {
+	margin: 10px;
+}
+
+.col-2{
+	display: flex;
+}
+.col-2 label{
+	padding: 10px;
+	margin: 5px;
+}
+.col-2 button{
+	background-color: #8faff4;
+	margin: 5px;
+	border-radius: 5px;
+}
+.col-2 img {
+	margin: 10px;
+}
+.col-3{
+	display: flex;
+}
+.col-3 label{
+	padding: 10px;
+	margin: 5px;
+}
+.col-3 button{
+	background-color: #8faff4;
+	margin: 5px;
+	border-radius: 5px;
+}
+.col-3 img {
+	margin: 10px;
+}
+.col-4{
+	display: flex;
+}
+.col-4 label{
+	padding: 10px;
+	margin: 5px;
+}
+.col-4 button{
+	background-color: #8faff4;
+	margin: 5px;
+	border-radius: 5px;
+}
+.col-4 img {
+	margin: 10px;
+}
